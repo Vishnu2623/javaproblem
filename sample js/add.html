@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function add(){
+
+    
+    let num1,num2,result;
+    num1=parseInt(document.getElementById("fn").value);
+    num2=parseInt(document.getElementById("sn").value);
+    result=num1+num2;
+        document.getElementById("rn").value=result;
+        
+    
+    }let a=prompt("enter your name");
+        console.log(a);
+</script>
+<body>
+    <p>First Number:<input id="fn"></p>
+    <p>Second Number:<input id="sn"></p>
+    <button onclick="add()">ADD</button>
+    <p>result:<input id="rn"></p>
+</body>
+</html>
